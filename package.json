@@ -1,0 +1,32 @@
+{
+  "name": "vehicleassistance",
+  "version": "1.0.0",
+  "description": "Vehicle Assistance Prediction",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aniket Varade",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^1.2.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jquery": "^3.3.1",
+    "mongodb": "*",
+    "mongoose": "*",
+    "mongoose-double": "0.0.1",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "python-shell": "^0.5.0"
+  }
+}
