@@ -1,0 +1,34 @@
+<div class="limiter" id="load">
+    <div class="container-login100">
+        <div class="wrap-login100 p-l-85 p-r-85 p-b-55">
+        <br><br><br>
+        <!--form name="tpform" action="thankyou.html" method="post" class="login100-form"-->
+            <span class="login100-form-title p-b-25 m-l-25">
+                    Select Your Problem You're Facing
+                </span>
+            <!-- <span class="txt4 p-b-11">
+                <input type="radio" name="predict" id="rad1" checked>
+                    Accident<br>
+                </span>
+                <span class="txt4 p-b-11">
+                <input type="radio" name="predict" id="rad2">
+                    Overheat<br>
+                </span>
+                <span class="txt4 p-b-11">
+                <input type="radio" name="predict" id="rad3">
+                    Tire<br>
+                </span>                    
+                <button class="login100-form-btn1 m-t-40" onclick="othres()">Submit</button> -->
+        <!--/form-->
+     <form name="thankyou" method="POST" action="/abc">
+      <button class="login100-form-btn m-t-30 m-l-100" id="overheat" name="overheat" value="{{res1}}">{{res1}}</button>
+      </form>
+      <form name="thank" method="POST" action="/abc">
+        <button class="login100-form-btn m-t-30 m-l-100" id="overheat" name="overheat" value="{{res2}}">{{res2}}</button>
+    </form>
+        {{!-- <button class="login100-form-btn m-t-30 m-l-100" id="accident" name="accident" value="accident">Accident</button>
+        <button class="login100-form-btn m-t-30 m-l-100" id="tire" name="tire" value="tire">Tire</button>
+        <button class="login100-form-btn m-t-30 m-l-100" id="overheat" name="overheat" value="overheat">Overheat</button> --}}
+        </div>
+    </div>
+</div>
